@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="./images/logo14.png" alt="">
+            </a>
+
+            <!-- BOOTSTRAP -->
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid ">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/education.html">EDUCATION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/conferences.html">CONFERENCES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/about.html">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/education.html">EDUCATION</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/conferences.html">CONFERENCES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/contact.html">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- xxx -->
+
+        </div>
+    </header>
+
+    <main> 
+        <section class="hero">
+            <div class="hero-content">
+                <h1> Lic. en Psicologia </h1>
+                <h3> Noelia Ramirez </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Magni autem earum quidem, excepturi, placeat perferendis nobis eaque id.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, facere omnis! Nihil ipsum iure, 
+                    laborum similique vero, distinctio et praesentium nemo beatae atque hic in, dolore aspernatur itaque delectus odit.
+                </p>
+                <a href="./pages/about.html" class="btn-hero">About Me</a>
+            </div>
+
+            <div class="hero-img">
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <div class="image">
+                        <img src="./images/img1.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-icons">
+            <div class="hero-sci">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2023 | Profolio created by LeandroDelgado</small>
+    </footer>
+
+</body>
+</html>
